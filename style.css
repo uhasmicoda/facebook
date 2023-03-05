@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+.main-container{
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 12px;
+    font-size: 12px;
+    outline: none;
+
+}
+ .input input:first-child{
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border: 1px solid rgb(33, 89, 173);
+    border-radius: 8px;
+    /* font-size: large; */
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+    outline: none;
+
+
+ }
+ .input input:nth-child(2){
+    display: flex;
+    width: 400px;
+    height: 60px;
+    border: 1px solid rgb(33, 89, 173);
+    border-radius: 8px;
+    /* font-size: large; */
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+    outline: none;
+
+
+
+ }
+.loging-button{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 60px;
+    border: 1px solid rgb(33, 89, 173);
+    border-radius: 8px;
+    font-size: large;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(86, 149, 221);
+    margin: 10px;
+
+    
+}
+.Forgetten{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: large;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px;
+    font-family: inherit;
+
+}
+.new-account{
+    width: 70%;
+    height: 60px;
+    font-family: inherit;
+    box-shadow: 1px;
+    border-radius: 8px;
+    color: #fff;
+    margin: 0 auto;
+    background-color: green;
+}
+
